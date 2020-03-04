@@ -76,11 +76,12 @@
 }
 
 @media (max-width: 767px) {
-	.inner, #img-cover, .info {
+	.inner, #img-cover {
 		width: 95%;
 	}
 
 	.info {
+		width: 95%;
 		margin: 3% auto;
 	}
 
