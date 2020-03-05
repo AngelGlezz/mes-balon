@@ -29,6 +29,18 @@
 	padding-bottom: 100px;
 }
 
+#link_dona {
+	position: fixed;
+	left: 14%;
+	bottom: 10%;
+	width: 100px;
+}
+
+#link_dona img {
+	width: 100%;
+	height: 100%;
+}
+
 #img-cover {
 	width: 700px;
 	position: absolute;
@@ -101,10 +113,28 @@
 	#info-4 img:hover {
 		width: 100%;
 	}
+
+	#link_dona {
+		left: 80%;
+		bottom: 5%;
+	}
+}
+
+@media (max-width: 500px) {
+	#link_dona {
+		width: 80px;
+		left: 70%;
+		bottom: 5%;
+	}
 }
 
 @media (max-height: 500px) {
 	#img-cover {
 		width: 350px;
+	}
+
+	#link_dona {
+		width: 80px;
+		bottom: 5%;
 	}
 }
