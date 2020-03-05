@@ -76,6 +76,10 @@
 }
 
 @media (max-width: 767px) {
+	#page {
+		background-image: url(../images/Fondo_2.png);
+	}
+
 	.inner, #img-cover {
 		width: 95%;
 	}
